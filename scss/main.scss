@@ -21,8 +21,6 @@ body {
         margin: 50px auto 0;
         z-index: 5;
     }
-
-
 }
 
 .conteiner-nav {
@@ -50,7 +48,6 @@ body {
         width: 100%;
         height: auto;
     }
-
 }
 
 .nav {
@@ -60,7 +57,7 @@ body {
         top: 0;
         left: -110%;
         width: 100%;
-        height: 30vh;
+        height: 240px;
         background: linear-gradient(30deg, #4e2c58, #2c40588a);
         padding: 20px 0 0 0;
         transition: all 0.3s;
@@ -170,9 +167,9 @@ body {
             left: -16px;
             transform: translateY(-50%);
 
-            // @media (max-width: 768px) {
-            //     display: none;
-            // }
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
 
         &:hover:before {
@@ -298,13 +295,7 @@ body {
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
-
-
-//-----------------------------------------------main-----------------------------------///@at-root
-// .main {
-//     //max-width: 1600px;
-// }
-
+//-----------------------------------------------main----------------------------------
 .main-title {
     margin: 0;
     padding: 0;
@@ -459,9 +450,7 @@ body {
         padding-right: 10px;
     }
 }
-
 ///-----------2 слайд----//
-
 .news {
     max-width: 1600px;
     margin: 0 auto;
@@ -612,7 +601,8 @@ body {
 
     &__title {
         margin-bottom: 90px;
-        @media (max-width: 768px){
+
+        @media (max-width: 768px) {
             margin-bottom: 20px;
         }
     }
@@ -655,9 +645,6 @@ body {
         margin: 60px auto 0 auto;
     }
 }
-
-//--------////карта//---------------
-
 .body-map {
     max-width: 1600px;
     margin: 0 auto;
@@ -669,8 +656,6 @@ body {
 .map {
     height: 700px;
 }
-
-//--------------------------------------////////----
 
 .footer {
     position: relative;
@@ -716,7 +701,7 @@ body {
     background: center no-repeat url(../img/Background-form.png);
     max-width: 770px;
     padding: 60px 0 0 0;
-    top: -80px;
+    top: -65px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -819,4 +804,16 @@ body {
     @media (max-width: 768px) {
         justify-content: center;
     }
+}
+
+// .text-js {
+//     display: none;
+// }
+
+.text-js-first {
+    display: none;
+}
+
+.text-js-second {
+    display: none;
 }

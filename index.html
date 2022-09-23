@@ -82,7 +82,7 @@
             </div>
             <div class="slider-slide">
                 <div class="slider__content sl-content">
-                    <h2 class="sl-content__title">SIMPLE & MODER</h2>
+                    <h2 class="sl-content__title">MODER & SIMPLE</h2>
                     <h4 class="sl-content__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
                     <span class="arrow"><img src="./img/Arrow.svg" alt=""></span>
                 </div>
@@ -90,7 +90,7 @@
             </div>
             <div class="slider-slide">
                 <div class="slider__content sl-content">
-                    <h2 class="sl-content__title">SIMPLE & MODER</h2>
+                    <h2 class="sl-content__title">SIMPLE & SIMPLE</h2>
                     <h4 class="sl-content__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
                     <span class="arrow"><img src="./img/Arrow.svg" alt=""></span>
                 </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="slider-slide">
                 <div class="slider__content sl-content">
-                    <h2 class="sl-content__title">SIMPLE & MODER</h2>
+                    <h2 class="sl-content__title">MODER & MODER</h2>
                     <h4 class="sl-content__subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h4>
                     <span class="arrow"><img src="./img/Arrow.svg" alt=""></span>
                 </div>
@@ -116,8 +116,8 @@
     </header>
     <main class="main">
         <section class="projects">
-            <h2 class="main-title projects__title">WHAT WE DO</h2>
-            <div class="project">
+            <h2 class="main-title projects__title" id="mainscroll">WHAT WE DO</h2>
+            <div class="project" id="project">
                 <div class="project-img">
                     <img src="./img/project-first.png" alt="">
                 </div>
@@ -125,9 +125,13 @@
                     <h3 class="project__subtitle main-subtitle">ONE WORLD</h3>
                     <h2 class="project__title main-title">TRADE CENTER</h2>
                     <p class="project__text main-text">Increasing prosperity in our lives can be accomplished by having
-                        the right frame of mind. The truth is, our thoughts are very powerful.</p>
-                    <button class="btn project__btn">MORE DETAILS</button>
-                    <a class="reference" href="#"><img src="./img/location-icon.png" alt="">New York City, United States -
+                        the right frame of mind. The truth is, our thoughts are very powerful.<br><span
+                        class="text-js text-js-first">Successful businesses have many things in common, today we’ll
+                        look at the big ‘R’ of recognition and how a digital advertising network may help. Successful businesses have many things in common, today we’ll
+                        look at the big ‘R’ of recognition and how a digital advertising network may help.</span></p>
+                    <button class="btn project__btn" id="first">MORE DETAILS</button>
+                    <a class="reference" href="#"><img src="./img/location-icon.png" alt="">New York City, United States
+                        -
                         1776 feet</a>
                 </div>
             </div>
@@ -138,14 +142,17 @@
                 <div class="project-content project-content_pading">
                     <h3 class="project__subtitle main-subtitle">INTERNATIONAL</h3>
                     <h2 class="project__title main-title">COMMERCE CENTRE</h2>
-                    <p class="project__text main-text">Successful businesses have many things in common, today we’ll
-                        look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
-                    <button class="btn project__btn">MORE DETAILS</button>
+                    <p class="project__text main-text ">Successful businesses have many things in common, today we’ll
+                        look at the big ‘R’ of recognition and how a digital advertising network may help.<br><span
+                            class="text-js text-js-second">Increasing prosperity in our lives can be accomplished by having
+                            the right frame of mind. The truth is, our thoughts are very powerful. Increasing prosperity in our lives can be accomplished by having
+                            the right frame of mind. The truth is, our thoughts are very powerful.</span></p>
+                    <button class="btn project__btn" id="second">MORE DETAILS</button>
                     <a class="reference" href="#"><img src="./img/location-icon.png" alt="">Hong Kong - 1588 feet</a>
                 </div>
             </div>
         </section>
-        <section class="news">
+        <section class="news" id="news">
             <h2 class="main-title projects__title news__color">LATEST NEWS</h2>
             <div class="slider-second">
                 <div class="slider-second__item">
@@ -260,33 +267,33 @@
             <div class="map" id="map"></div>
         </section>
     </main>
-    <footer class="footer">
-            <form class="form" method="GET" action="">
-                <h2 class="main-title projects__title form__title">GET IN TOUCH</h2>
-                <div class="form__content">
-                    <div class="form__contacts">            
-                       <p class="form__text"><i class="icon-backgraund fa-solid fa-location-dot"></i>
+    <footer class="footer" id="contact">
+        <form class="form">
+            <h2 class="main-title projects__title form__title">GET IN TOUCH</h2>
+            <div class="form__content">
+                <div class="form__contacts">
+                    <p class="form__text"><i class="icon-backgraund fa-solid fa-location-dot"></i>
                         91 Nolan Extensions Suite 670</p>
-                       <p class="form__text"><i class="icon-backgraund fa-solid fa-phone"></i>
+                    <p class="form__text"><i class="icon-backgraund fa-solid fa-phone"></i>
                         +001 356-868-2454</p>
-                       <p class="form__text"><i class="icon-backgraund fa-solid fa-car"></i>
-                        montichello@service.com</p> 
-                       <p class="form__text"><i class="icon-backgraund fa-regular fa-clock"></i>
+                    <p class="form__text"><i class="icon-backgraund fa-solid fa-car"></i>
+                        montichello@service.com</p>
+                    <p class="form__text"><i class="icon-backgraund fa-regular fa-clock"></i>
                         From 07:05AM to 19:30PM</p>
-                    </div>
-                    <div class="input-container">
-                        <div class="form__input">
-                            <input class="inpt" type="text" placeholder="Mollie Medina" size="30" required>
-                        </div>
-                        <div class="form__input">
-                            <input class="inpt" type="email" placeholder="Email" size="30" required>
-                        </div>
-                        <div class="btn-conteiner">
-                            <button class="btn form__btn">SUBMIT</button>
-                        </div>
-                    </div>   
                 </div>
-            </form>
+                <div class="input-container">
+                    <div class="form__input">
+                        <input class="inpt" type="text" placeholder="Mollie Medina" size="30" required>
+                    </div>
+                    <div class="form__input">
+                        <input class="inpt" type="email" placeholder="Email" size="30" required>
+                    </div>
+                    <div class="btn-conteiner">
+                        <button class="btn form__btn">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </form>
         <div class="footer-container">
             <a class="logo-img" href="#">
                 <img src="./img/logo.svg" alt="logo">
